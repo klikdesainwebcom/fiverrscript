@@ -1,0 +1,339 @@
+#action-bar {
+    z-index: 21;
+    left: 0px;
+    background-color: #FFF;
+    border-bottom: 1px solid #DDD;
+    height: 61px;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+}
+.mp-box {
+    background: #F7F7F7 none repeat scroll 0% 0%;
+    margin: 0px auto;
+    position: relative;
+}
+.action-bar-orders > .box-row {
+    padding-right: 199px;
+}
+.mp-box .box-row {
+    width: 988px;
+    margin: 0px auto;
+    position: relative;
+    box-sizing: border-box;
+}
+.action-steps {
+    width: 100%;
+}
+.action-steps .step {
+    float: left;
+    height: 32px;
+    padding: 14px 19px 14px 0px;
+}
+span.status
+{
+	font-size: 12px;
+	padding: 5px;
+	font-family: Arial,Helvetica,sans-serif;	
+}
+.flag {
+    margin-top: 6px !important;
+}
+.whiteBox h1 {
+    font-size: 30px !important;
+}
+.whiteBox a {
+    color: #049BCF;
+}
+.whiteBox h4 {
+    font-family: Arial,Helvetica,sans-serif !important;
+	font-size: 12px;
+}
+.whiteBox h4 a {
+    color: #424242;
+}
+.whiteBox.inside {
+	color:#636262;
+	font-size: 14px;
+	float: none !important;
+	background: #FBFAD2 none repeat scroll 0%;
+}
+.db-main-table table td
+{
+	border-top:0px !important;
+	padding-top: 25px;
+	padding-bottom: 25px;	
+	color: #555;
+	white-space: normal !important;
+	line-height: normal !important;
+	font-size: 16px !important;
+}
+.db-main-table table thead td {
+    font-size: 16px !important;
+}
+
+
+
+.conv-write label {
+    font: 400 12px/16px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #777;
+}
+.conv-write > header label, .conv-write-resolution > header label {
+    display: inline-block;
+    font-size: 11px;
+    line-height: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #777;
+    padding-bottom: 10px;
+}
+.conv-write, .conv-write-resolution {
+    background-color: #EEE;
+    border-width: 1px 0px;
+    border-style: solid none;
+    border-color: #DDD -moz-use-text-color;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    padding: 17px 20px 20px;
+    position: relative;
+}
+.conv-write {
+    border: 1px solid #CCC;
+    padding: 17px 20px 20px;
+    box-sizing: border-box;
+    border-radius: 0px 0px 5px 5px;
+    margin: 0px -1px -1px;
+}
+
+textarea, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"] {
+    background-color: #FFF;
+    font: 400 12px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #777;
+    border: 1px solid #B2B2B2;
+    padding: 6px 7px 7px;
+    margin: 0px;
+    resize: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.conv-write .write-wrap .write-row textarea, .conv-write-resolution .write-wrap .write-row textarea {
+    background-color: #FFF;
+    width: 100%;
+    height: 150px;
+    display: block;
+    border: 0px none;
+    padding: 10px;
+    border-radius: 0px;
+    transition: height 0.2s ease-in-out 0s;
+}
+textarea {
+    font-size: 14px;
+}
+.conv-write .write-wrap .write-row, .conv-write-resolution .write-wrap .write-row {
+    position: relative;
+    padding: 8px;
+}
+.conv-write .write-wrap .write-row .uploadifyQueue, .conv-write-resolution .write-wrap .write-row .uploadifyQueue {
+    display: block;
+}
+.uploadifyQueue {
+    float: right;
+    border-left: 1px solid #DDD;
+    padding-left: 10px;
+    width: 294px;
+}
+.conv-write .write-wrap, .conv-write-resolution .write-wrap {
+    background-color: #F4F4F4;
+    overflow: hidden;
+    border: 1px solid #B2B2B2;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px #E3E3E3 inset;
+}
+
+.conv-write .write-wrap .write-controls, .conv-write-resolution .write-wrap .write-controls {
+    padding: 10px;
+    height: 31px;
+    position: relative;
+}
+.conv-write .write-wrap .icn-submit, .conv-write-resolution .write-wrap .icn-submit {
+    float: right;
+    position: relative;
+}
+.conv-write .write-wrap .btn-send-message, .conv-write-resolution .write-wrap .btn-send-message {
+    padding-left: 10px;
+    padding-right: 10px;
+    float: right;
+    text-transform: capitalize;
+}
+.clickable, input[type="button"], input[type="submit"], button {
+    cursor: pointer;
+}
+.btn-standard {
+    background-color: #FFF;
+    display: inline-block;
+    letter-spacing: 0px;
+    font: 500 12px/12px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #777;
+    white-space: nowrap;
+    text-transform: uppercase;
+    border: 1px solid #CCC;
+    padding: 9px 9px 8px;
+    margin: 0px;
+    cursor: pointer;
+    transition: color 0.2s ease 0s, background-color 0.2s ease 0s, box-shadow 0.2s ease 0s, border 0.2s ease 0s;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+}
+.conv-write .write-wrap .attach-files, .conv-write-resolution .write-wrap .attach-files {
+    float: left;
+}
+.conv-write .write-wrap .attach-files .attach-inner, .conv-write-resolution .write-wrap .attach-files .attach-inner {
+    height: 31px;
+    cursor: pointer;
+    float: left;
+}
+.conv-write .write-wrap .attach-files .btn-attach-files, .conv-write-resolution .write-wrap .attach-files .btn-attach-files {
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.conv-write .write-wrap .attach-limit, .conv-write-resolution .write-wrap .attach-limit {
+    max-width: 135px;
+    vertical-align: middle;
+    line-height: 15px;
+    height: 31px;
+    color: #999;
+    padding: 0px 0px 0px 10px;
+}
+.files-added {
+    overflow: hidden;
+    display: none;
+    margin: 0px !important;
+}
+.cancel {
+	float: left;
+}
+.sending {
+	font-size:12px;
+	color:#666;
+}
+#message_validation_error {
+	font-size:14px;
+	color:#F00;
+}
+.okay table thead tr {
+    background-color: #E7FCEF !important;
+}
+.reqbox table thead tr {
+    background-color: #FAFCE7 !important;
+}
+.warning table thead tr {
+    background-color: #FAFCE7 !important;
+}
+
+.yellowbg table tbody tr {
+    background-color: #FAFCE7 !important;
+}
+
+.redbg table tbody tr {
+    background-color: #FDF2F2 !important;
+}
+
+.deliverybox table tbody tr {
+    background-color: #F4FDF2  !important;
+}
+
+.delivery-footer {
+	font-size:12px;
+}
+
+.scriptolutionuimage {
+	border-radius: 50%;
+}
+.leftitscriptolution {
+    text-align:left !important;
+}
+.width25 {
+	width:14%
+}
+.width75 {
+	width:84%
+}
+.padding5 {
+	padding-top:5px !important;
+}
+.box {
+	padding:5px;
+}
+.support-message {
+	color:#333;
+	padding:10px;
+	border-radius: 5px;
+	background: #FAFAFA none repeat scroll 0% 0%;
+	border: 1px solid #E0E0E0;
+}
+.toggle-close {
+    display: none;
+}
+span.instructions {
+  background: #fefefe;
+  border: 1px solid #eaeaea;
+  margin: 10px 0 0;
+  padding: 10px;
+}
+.select-deliver {
+  background: #F4FDF5 !important;
+}
+
+.scriptolutiondeliver {
+	  color: #fff;
+  background-color: #0c6;
+  padding: 8px;
+  border-radius: 5px 5px 0px 0px;
+}
+.scriptolutiondmessageme {
+  color: #fff;
+  background-color: #54BFE4;
+  padding: 8px;
+  border-radius: 5px 5px 0px 0px;
+}
+.scriptolutionprobs {
+	  color: #fff;
+  background-color: #F95D5D;
+  padding: 8px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.whitelinks a{
+	color:#fff;
+	font-size: 14px;
+}
+
+.action-steps .step-end {
+    float: right;
+    height: 32px;
+    padding: 14px 0px 14px 14px;
+}
+
+.action-steps .step-end h5 {
+    color: #999;
+}
+
+.action-steps h5 {
+    display: inline-block;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #555;
+    vertical-align: top;
+    height: 32px;
+    padding-right: 2px;
+    text-transform: uppercase;
+    overflow: hidden;
+	font: 26px "Helvetica Neue",Helvetica,Arial,sans-serif;
+}

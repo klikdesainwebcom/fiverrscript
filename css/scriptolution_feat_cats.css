@@ -1,0 +1,9 @@
+.scriptolutionsmain1{padding-left:30px; padding-right:17px; position:relative; z-index:5}
+.scriptolutionsmain2{padding-left:30px; padding-right:17px; position:relative; z-index:5}
+.scriptolutionsblock{border:1px solid #dbdbdb; padding:7px 8px; position:relative; float:left; width:335px; margin-right:16px; margin-bottom:15px; height:235px; overflow:hidden}
+.scriptolutionsblock p{font-family:'latoregular'; font-size:16px; font-weight:bold; line-height:18px; color:#000000; padding-top:8px; padding-bottom:2px;}
+.scriptolutionsblock p a{color:#222222;}
+.scriptolutionsblock p a:hover{color:#38B0D9;}
+.scriptolution-h-header{font-size:30px; font-weight:bold; text-align:center; color:#333333; text-transform:uppercase; font-family:Arial, Helvetica, sans-serif; padding-bottom:0px;}
+.scriptolution-s-small{font-size:18px; text-align:center; color:#333333; font-family:Arial, Helvetica, sans-serif; padding-bottom:20px;}
+.scriptolution-t-tags li{background-color:#f9f9f9; color:#b2b2b2; border:1px #ddd solid; margin-right: 5px; border-radius: 2px; box-sizing: border-box; display: inline-block; padding: 2px 7px; height: 23px; font-size:13px;font-family:Arial, Helvetica, sans-serif;}

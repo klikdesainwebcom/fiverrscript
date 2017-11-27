@@ -1,0 +1,5 @@
+@media only screen and (max-width: 1322px) {
+	.banner {min-width: 1106px;}
+	.bodyshadow {width: 1106px;}
+	.footer {min-width: 1106px;}
+}

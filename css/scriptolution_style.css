@@ -1,0 +1,130 @@
+@font-face {
+    font-family:'latobold';
+    src: url('../fonts/lato-bol-webfont.eot');
+    src: url('../fonts/lato-bol-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-bol-webfont.woff') format('woff'),
+         url('../fonts/lato-bol-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'latoregular';
+    src: url('../fonts/lato-reg-webfont.eot');
+    src: url('../fonts/lato-reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-reg-webfont.woff') format('woff'),
+         url('../fonts/lato-reg-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'latolight';
+    src: url('../fonts/lato-lig-webfont.eot');
+    src: url('../fonts/lato-lig-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-lig-webfont.woff') format('woff'),
+         url('../fonts/lato-lig-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'din_lightregular';
+    src: url('../fonts/din_light-webfont.eot');
+    src: url('../fonts/din_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/din_light-webfont.woff') format('woff'),
+         url('../fonts/din_light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.header *{margin:0; padding:0;}
+html,body{float:left;width:100%;height:100%;min-height:100%;position:relative;margin:0px; padding:0px; background:#daf7ff; min-width:1144px;}
+.centerwrap{width:1010px; margin:auto;}
+.clear{clear:both;}
+.relative{position:relative}
+.header{float:left; width:100%;background:url(../images/scriptolution_headerbg.jpg) no-repeat center top; height:100px; position:relative;}
+.header a{text-decoration:none; outline:none;}
+.headertop{float:left; width:100%; height:44px}
+.logo{float:left; padding-left:12px; padding-top:9px;}
+.scriptolution_search{float:left; margin-left:44px; margin-top:5px; background-color:#fff; width:352px; height:32px; -webkit-border-radius:5px; border-radius:5px; position:relative}
+.dropdown{margin:0px; padding:0px 0 0 0px; float:left}
+.dropdown dd,.dropdown dt,.dropdown ul{margin:0;padding:0; font-family:Arial, Helvetica, sans-serif; font-size:13px;}
+.dropdown dd{position:relative; z-index:99999}
+.dropdown a,.dropdown a:visited{color:#51559E;text-decoration:none;outline:none}
+.dropdown a:hover{color:#51559E}
+.dropdown dt a:hover{}
+.dropdown dt a{background:url(../images/scriptolution_allbg.jpg) repeat-x; display:inline-block; padding-right:11px; border-right:1px solid #e2e4e3; font-family:Arial, Helvetica, sans-serif; font-size:13px; -webkit-border-radius:5px 0px 0px 5px; border-radius:5px 0px 0px 5px; }
+.dropdown dt a span{cursor:pointer;display:block; background:url(../images/scriptolution_alldropdown.png) no-repeat scroll right center; height:32px; line-height:32px; padding-left:14px; padding-right:17px; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#4b4b4b}
+.dropdown dd ul{background-color:#F5F5F5;border:1px solid #E2E4E3;color:#4b4b4b;display:none;left:0;position:absolute;top:-4px;width:auto; min-width:110px;list-style:none;}
+.dropdown dd ul li a{display:block;padding:5px; color:#4b4b4b;}
+.dropdown dd ul li a:hover{background-color:#e2e4e3}
+.textbox{height:32px; float:left; line-height:32px; padding:0 5px; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#4b4b4b; border:none; width:170px}
+.searchbtn{background:url(../images/scriptolution_search.jpg) no-repeat; cursor:pointer; float:right; width:27px; height:30px; margin-top:0px; border:none; margin-right:4px; position:absolute; right:0px;}
+.headeright{float:right; padding-top:9px;}
+.headeright p{float:left; font-family:Arial, Helvetica, sans-serif; font-size:15px; line-height:24px;}
+.headeright p a{color:#fff; margin:0 16px;}
+.headeright ul{list-style:none; float:left}
+.headeright ul li{float:left; font-family:Arial, Helvetica, sans-serif; font-size:15px; line-height:24px; position:relative}
+.headeright ul li a{color:#fff; margin:0 16px; display:block; line-height:24px; padding-bottom:10px;}
+.headeright ul li a span{position:absolute; left:52px; top:-5px; font-size:12px; color:#fff; font-family:Arial, Helvetica, sans-serif}
+.headeright ul li ul{display:none;z-index:999;}
+.headeright ul li:hover > ul {display:block; position:absolute; left:6px; top:30px; background-color:#fff; width:150px; padding:5px 0; -webkit-border-radius: 0px 0px 5px 5px; border-radius: 0px 0px 5px 5px; }
+.headeright ul ul li a{color:#333; margin-left:10px; font-size:13px; padding-bottom:0px;}
+.headeright ul ul li a:hover{color:#38B0D9;}
+.facebook{float:left; padding-left:16px;}
+.bannertext{float:left;width:100%;padding-top:32px;}
+.bannertext h3{font-size:39px; font-weight:normal; text-align:center; letter-spacing:-0.5px; color:#4e4e4e; text-shadow:1px 1px #fff;  font-family:'din_lightregular';}
+.bannertext h2{font-size:39px; line-height:38px; font-family:'latobold'; text-shadow:1px 1px #fff; font-weight:normal; text-align:center; color:#4c4a4b; padding-bottom:18px;}
+.getstarted{text-align:center;}
+.getstarted a{background:url(../images/scriptolution_get_started.png) no-repeat; width:270px; height:42px; display:inline-block; color:#fff; text-shadow:1px 1px #429a0c; font-family:'latobold'; line-height:42px; font-size:26px;}
+.bannertext p{font-size:12px; text-align:center; font-family:'latolight'; padding-top:8px;}
+.bannertext p a{color:#025b79;}
+.bannertext p a:hover{color:#000;}
+.topnavbg{position:absolute; left:-61px; background:url(../images/scriptolution_topnavbg.png) no-repeat; width:1144px; height:72px; top:308px; }
+.topnavbg ul{list-style:none; padding-left:65px}
+.topnavbg ul li{float:left; font-family:"Myriad Pro", Arial, Helvetica, sans-serif; font-size:16px; color:#4b4b4b; line-height:55px; padding:0 5px;}
+.topnavbg ul li a{color:#4b4b4b; text-transform:uppercase}
+.topnavbg ul li a:hover{color:#38B0D9;}
+.topnavbg.gray { background:url(../images/scriptolution_topnavbg_gray.png) no-repeat; }
+.topright{float:right; padding-right:4px; padding-top:4px;}
+.topright a{float:left}
+.footer a{text-decoration:none; outline:none;}
+.footerlinks{ padding-left:50px; padding-top:24px; position:relative; z-index:5}
+.footerlink{float:left; width:185px; padding-bottom:30px; padding-top:10px;}
+.footerlink h3{font-family:'latobold'; font-size:18px; color:#38b0d9; font-weight:normal; padding-bottom:10px;}
+.footerlink h3 a{color:#38b0d9;}
+.footerlink h3 a:hover{color:#4b4b4b;}
+.footerlink ul{list-style:none;}
+.footerlink ul li{font-family:'latoregular'; font-size:16px; line-height:31px;}
+.footerlink ul li a{color:#4b4b4b;}
+.footerlink ul li a:hover{color:#38b0d9;}
+.footer{float:left; width:100%; background:url(../images/scriptolution_footerbg.jpg) repeat-x; height:112px; border-top:7px solid #bfca58; /*margin-top:-15px;*/ position:relative}
+.footerbg{position:absolute; left:-61px; top:-8px}
+.footertop{padding-top:15px; position:relative}
+.flogo{float:left; padding-top:14px;}
+.footer p{font-family:'latoregular'; font-size:14px; color:#fff; text-align:center; padding-left:250px; float:left; padding-top:24px;}
+.footer p a{color:#38b0d9;}
+.footer p a:hover{color:#fff;}
+.bottomlink{float:right;}
+.bottomlink ul{list-style:none; padding-left:40px; float:left}
+.bottomlink ul li{font-family:'latoregular'; font-size:16px; font-weight:normal}
+.bottomlink ul li a{color:#fff;}
+.bottomlink ul li a:hover{color:#38B0D9;}
+.reletive{position:relative;}
+.scriptolution_categories{position:absolute; right:5px; top:5px; z-index:99999; }
+#scriptolution_categories{font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#4b4b4b; display:block; text-transform:uppercase; background:#FFF url(../images/scriptolution_dropdown.png) no-repeat 95% 12px; width:183px; height:34px; line-height:34px; padding-left:10px; -webkit-border-radius:5px; border-radius:5px;}
+/*#scriptolution_categories{font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#4b4b4b; display:block; text-transform:uppercase; background:#FFF url(../images/scriptolution_dropdown.png) no-repeat 95% 12px; width:150px; height:34px; line-height:34px; padding-left:10px; -webkit-border-radius:5px; border-radius:5px;}*/
+.scriptolution_categoriesname{display:none; list-style:none}
+.reletive:hover > .scriptolution_categoriesname{display:block; list-style:none; width:193px; position:absolute; top:29px; left:0px; background-color:#fff; padding:10px 0}
+/*.reletive:hover > .scriptolution_categoriesname{display:block; list-style:none; width:160px; position:absolute; top:29px; left:0px; background-color:#fff; padding:10px 0}*/
+.scriptolution_categoriesname li{font-family:'latoregular'; font-size:15px; position:relative}/*18*/
+.scriptolution_categoriesname li a{color:#4b4b4b; text-align:center; line-height:29px; display:block}
+.scriptolution_categoriesname li a:hover{color:#38b0d9; text-decoration:underline}
+.scriptolution_categoriesname li .subdrop{display:none;}
+.scriptolution_categoriesname li ul{list-style:none; padding-top:15px;}
+.scriptolution_categoriesname li:hover a{color:#38b0d9; text-decoration:underline}
+.scriptolution_categoriesname li:hover ul li{color:#38b0d9; text-decoration:none}
+.scriptolution_categoriesname li:hover ul li a{color:#fff; text-decoration:none}
+.scriptolution_categoriesname li:hover ul li a:hover{color:#38b0d9; text-decoration:underline}
+.scriptolution_categoriesname li:hover > .subdrop{display:block; position:absolute; right:193px; background-color:#292929; width:180px; top:50%; -webkit-border-radius: 5px 0px 0px 5px; border-radius: 5px 0px 0px 5px; /*height:145px;*/ margin-top:-75px;}
+.scriptolution_categoriesname li ul li{font-size:13px; color:#38b0d9; text-align:left; padding-left:17px; line-height:29px}
+.scriptolution_categoriesname li ul li a{color:#fff; text-align:left}
+.subdroparrow{position:absolute; right:-9px; top:70px; margin-top:-7px;}
+.headeright ul ul li{float:none; z-index:999;}

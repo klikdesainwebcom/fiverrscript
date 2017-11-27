@@ -1,0 +1,82 @@
+#scriptolutionNotifBox {
+	display:block;
+	margin:0;
+	padding:0;
+	position:absolute;
+	height:auto;
+	width:306px;
+	top:33px;
+	right:318px;
+	z-index:999999;
+	font: 1.0em Helvetica,Arial,sans-serif;
+}
+
+.scriptolutionNotifBox a{
+	color:#008DC7;
+	font-size:12px
+}
+
+#scriptolutionNotifBox_top {
+	display:block;
+	margin:0;
+	padding:0;
+	width:100%;
+	height:32px;
+	background-position:-10px -180px
+}
+#scriptolutionNotifBox_bottom {
+	display:block;
+	margin:0;
+	padding:0;
+	width:100%;
+	height:20px;
+	background-position:-10px -220px
+}
+#scriptolutionNotifBox_content {
+	display:block;
+	margin:0;
+	padding:13px 30px 20px 30px;
+	width:246px;
+	height:auto;
+	background:top center url(../images/scriptolution-notifications-content.png) repeat-y
+}
+
+#scriptolutionNotifBox_middle {
+	display:block;
+	margin:20px auto 0 auto;
+	padding:0;
+	font-size:12px;
+	line-height:14px;
+	text-align:center
+}
+
+#scriptolutionNotifBox_none {
+	display:block;
+	margin:8px auto 0 auto;
+	padding:0;
+	font-size:14px;
+	font-weight:bold;
+	line-height:14px;
+	text-align:center;
+}
+
+.scriptolutionNotifBox_sprite {
+	background-image:url(../images/scriptolution-notifications-sprite.png);
+	background-repeat:no-repeat;
+	background-color: transparent
+}	
+			
+hr.style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.allscriptolutionNotifBox a{
+	color:#008DC7;
+	font-size:14px;
+	text-decoration:none;
+	font-family: 'proxima';
+    font-weight: 200;
+}

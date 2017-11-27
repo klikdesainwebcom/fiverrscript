@@ -1,0 +1,133 @@
+.scriptolution-jobsbyuser{font-size:30px;font-weight:700;color:#333;font-family:Arial,Helvetica,sans-serif;padding-bottom:0}
+.userbanner{background:url(../images/scriptolution_user_banner.jpg) no-repeat center top;height: 400px;background-size: cover;}
+.usertopnavbg{
+	/*background-color:#fff;border-radius:5px 5px 0 0;height:55px;left:0;position:absolute;top:302px;*/
+	width: 100%;
+    background: rgba(0,0,0,0.6);
+    padding: 30px 0;
+    color: #fff;
+    position: absolute;
+    z-index: 40;
+    left: 0;
+    right: 0;
+    margin-top: -80px;
+}
+.userbannertext{
+	padding-top:68px;
+	float: left;
+}
+.scriptolutionbannerpic{
+	padding-top:68px;
+	float: left;
+    width: 102px;
+}
+.scriptolutioncon{
+	padding-left: 50px;
+	padding-top: 20px;
+}
+.scriptolutionpbg{
+	background: #f7f7f7;
+}
+.whitebody {
+    background-color: #f7f7f7 !important;
+}
+.scriptolutionmidlineinfo{
+	font-family: 'proxima';
+    font-weight: 300;
+    font-size: 16px;
+    width: 1170px;
+    margin: auto;
+    position: relative;
+}
+.scriptolutionmidlineinfo p{
+	display: inline-block;
+}
+.splinfo{
+	padding-left:20px;
+}
+.userbannertext h3{font-size:50px;font-weight:400;padding-left: 50px;letter-spacing:-.5px;color:#fff;text-shadow:1px 1px #817F80;font-family:'latobold'}
+.userbannertext h2{font-size:26px;line-height:38px;font-family:'Arial, Helvetica, sans-serif';text-shadow:1px 1px #817F80;font-weight:400;padding-left: 50px;color:#fff;padding-bottom:1px}
+.find-userrating{padding:5px;border-radius:5px;-webkit-border-radius:5px;width:502px;margin:auto;padding-left: 50px;}
+.profile-image {/*margin-top:-120px !important;*/}
+.profile-image img{border-radius:50%;}
+.paddinguser20{padding:20px}
+.pfloatleft{float:left;width:60%;font-size:14px;font:400 16px/24px 'Helvetica Neue',Helvetica,Arial,sans-serif}
+.otherinfo{color:#666;font-size:14px;font:400 16px/24px 'Helvetica Neue',Helvetica,Arial,sans-serif;width:35%;float:right}
+.scriptolutionuserreviews{
+}
+.scriptolutionuserreviews>a{
+	display: inline-block;
+    width: 760px;
+    padding: 20px;
+    margin: 10px 0px 0px 30px;
+}
+.review-image img{border-radius:50%;float:left;margin-right:20px;padding-bottom:25px}
+.reviewinfo{color:#383838;font-size:14px;font:400 18px/24px 'Helvetica Neue',Helvetica,Arial,sans-serif}
+.reviewinfo .usercolorit{color:#13A0BA;font-size:14px;font:400 14px/24px 'Helvetica Neue',Helvetica,Arial,sans-serif}
+.scriptolutionproleft {
+    float: left;
+    width: 290px;
+    margin-bottom: 30px;    
+}
+.scriptolutionproright {
+    float: right;
+    width: 867px;
+    position: relative;
+}
+.coolscriptolution {
+	margin-top: 30px;
+	border: 1px solid #ddd;
+    background-color: #fff;
+	font-family: 'proxima';
+    font-weight: 300;
+    font-size: 16px;
+}
+.coolscriptolution h1 {
+    font-weight: 300;
+    font-size: 20px;
+}
+.randborder{
+	border-top: 1px solid #ddd;
+}
+.scriptolutionpart{
+	padding: 20px;
+	
+}
+.adspottoobig {
+	display:block;
+}
+@media only screen and (max-width:1100px) {
+	.userbannertext {
+		padding-top: 10px !important;
+		width: 99% !important;
+	}
+	.scriptolutionbannerpic {
+		padding-top: 10px !important;
+		width: 99% !important;
+		padding-left: 40px !important;
+	}
+	.scriptolutionmidlineinfo{
+		width: 99% !important;
+	}
+	.splinfo{
+		padding-left: 0px !important;
+	}
+	.scriptolutionmidlineinfo p{
+		padding-left: 5px !important;
+	}
+	.usertopnavbg{
+		padding: 20px 0 !important;
+	}
+	.scriptolutionproleft, .find-userrating {
+		width: 99% !important;
+	}
+	.scriptolutionproright {
+    	float: left !important;
+		width: 99% !important;
+	}
+}
+@media only screen and (max-width:469px) {
+	.adspottoobig {
+		display:none !important;
+	}
+}

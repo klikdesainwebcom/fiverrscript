@@ -1,0 +1,161 @@
+@font-face {
+    font-family:'latobold';
+    src: url('../fonts/lato-bol-webfont.eot');
+    src: url('../fonts/lato-bol-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-bol-webfont.woff') format('woff'),
+         url('../fonts/lato-bol-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'latoregular';
+    src: url('../fonts/lato-reg-webfont.eot');
+    src: url('../fonts/lato-reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-reg-webfont.woff') format('woff'),
+         url('../fonts/lato-reg-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'latolight';
+    src: url('../fonts/lato-lig-webfont.eot');
+    src: url('../fonts/lato-lig-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-lig-webfont.woff') format('woff'),
+         url('../fonts/lato-lig-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'din_lightregular';
+    src: url('../fonts/din_light-webfont.eot');
+    src: url('../fonts/din_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/din_light-webfont.woff') format('woff'),
+         url('../fonts/din_light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'myriad_probold';
+    src: url('../fonts/myriadpro-bold-webfont.eot');
+    src: url('../fonts/myriadpro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/myriadpro-bold-webfont.woff') format('woff'),
+         url('../fonts/myriadpro-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'myriad_prosemibold';
+    src: url('../fonts/myriadpro-semibold-webfont.eot');
+    src: url('../fonts/myriadpro-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/myriadpro-semibold-webfont.woff') format('woff'),
+         url('../fonts/myriadpro-semibold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'futura_md_btbold';
+    src: url('../fonts/futurab-webfont.eot');
+    src: url('../fonts/futurab-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/futurab-webfont.woff') format('woff'),
+         url('../fonts/futurab-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{margin:0px; padding:0px; background:#F2F3F4}
+.header a,.header input, .footer a,.footer input{text-decoration:none; outline:none;}
+.header ul, .header p{padding:0px; margin:0px;}
+.hide { display:none !important; }
+.centerwrap{width:1010px; margin:auto;}
+.clear{clear:both;}
+.relative{position:relative}
+.header{background:url(../images/scriptolution_headerpattern.jpg) repeat center top; height:85px;min-width: 1106px;}
+.headertop{ height:54px}
+.logo{float:left; padding-left:12px; padding-top:14px;}
+.header .scriptolutionssearch{float:left; margin-left:16px; margin-top:10px; position:relative}
+.textbox{background-color: #eeeeee; border: 1px solid #eeeeee; border-radius: 4px; box-shadow: 0 3px 9px rgba(0, 0, 0, 0.08) inset;padding: 4px 30px 4px 10px; transition: background-color 0.2s ease 0s, border-color 0.2s ease 0s, width 0.2s ease 0s; width:160px; font-size:14px; font-weight: 400;}
+.searchbtn{background:url(../images/scriptolution_search.png) no-repeat; cursor:pointer; position:absolute; right:6px; top:9px; width:15px; height:15px; border:none}
+.headeright{float:right; padding-top:14px;}
+.headeright ul{float:left; list-style:none;}
+.headeright ul li{float:left; font-family:Arial, Helvetica, sans-serif; font-size:14px;}
+.headeright ul li a{color:#fff; line-height:25px; display:block; padding:0 12px;}
+.headeright ul li a:hover{color:#689c2c;}
+.headeright ul li a.join{background-color:#689c2c; border-radius:3px; -webkit-border-radius:3px; font-weight:bold; margin-left:12px; color:#fff;}
+.facebook{float:left; padding-left:16px;}
+.subnav{background-color:#fff; border-bottom:1px solid #ddd; height:30px; padding-left:10px;}
+.subnav ul{list-style:none; padding-top:3px;}
+.subnav ul li{border-radius: 3px 3px 0 0; -webkit-border-radius: 3px 3px 0 0; cursor: default; float: left; font-size: 13px; line-height: 23px; position: relative;  font-family:Arial, Helvetica, sans-serif; border: 1px solid rgba(0, 0, 0, 0);z-index: 9999;}
+.subnav ul li a{color:#303030; padding:0 11px;}
+.subnav ul li a:hover{text-decoration:underline}
+.subnav ul li:hover a{color:#00698c;}
+.menubox{position:relative;}
+.subnav .menulist{background-color: #ffffff; border: 1px solid #dddddd; border-radius: 0 3px 3px; -webkit-border-radius: 0 3px 3px; box-sizing: border-box; -webkit-box-sizing: border-box; left: -1px; padding: 15px 0;position: absolute; top: 100%; z-index: 10; width:225px; display:none}
+.subnav .menulist ul{box-sizing:border-box; -webkit-box-sizing:border-box; float:left; padding:0 12px; width:90%;}
+.subnav .menulist ul:first-child{}
+.subnav ul li:hover{border: 1px solid #dddddd; box-shadow: 0 1px 3px 0 #dddddd; color: #00698c;}
+.subnav ul li:hover:before{background: none repeat scroll 0 0 #ffffff; content: ""; display: block; height: 1px; position: absolute; top: 23px;width: 100%; z-index: 11;}
+.subnav ul li:hover .menulist{display:block;}
+.subnav .menulist ul li{border:0px; box-shadow:none; display:block; float:none; line-height:18px; padding:3px 0;}
+.subnav .menulist ul li:hover{border:0px; box-shadow:none; color: #00698c;}
+.subnav .menulist ul li a{padding:0px;}
+.subnav .menulist ul li a:hover{text-decoration:underline;}
+.subnav ul li.submenu-center .menulist{left:50%; margin-left:-225px;}
+.subnav ul li.submenu-center .menulist{border-radius:3px; -webkit-border-radius:3px;}
+.subnav ul li.submenu-right .menulist{left:auto; right:-1px;}
+.subnav ul li.submenu-right .menulist{border-radius:3px 0 3px 3px; -webkit-border-radius:3px 0 3px 3px;}
+.topnavbg{background-color:#ffffff; border-radius: 5px 5px 0 0; height:55px; left: 0; position: absolute; top: 402px; width: 1010px;}
+.whitebody{width:1010px; margin:auto; background-color:#fff; position:relative}
+.headercenter{width:1040px; margin:auto;}
+.logoutheader{float:right}
+.usernamebox{float:right; padding-top:14px; padding-left:15px; padding-bottom:10px; cursor:pointer}
+.userimage{float:left; padding-right:8px;}
+.usernamebox p{font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#fff; text-transform:uppercase; line-height:17px; float:left; padding-top:4px;}
+.usernamebox p span{ background-color:#689c2c; float:right; padding:0 4px; margin-left:6px;}
+.droparrow{background:url(../images/scriptolution_navdroparrow.png) no-repeat right 23px; padding-right:13px;}
+.textdropdown{float:right; border-right:1px solid #393939;}
+.textdropdown p{font-family:Arial, Helvetica, sans-serif; font-size:12px; text-transform:uppercase;}
+.textdropdown a{color:#fff; line-height:54px; display:block; padding-right:27px; padding-left:29px;}
+.textdropdown span{padding-top:23px; padding-left:5px;}
+.massage{float:right; border-right:1px solid #393939; height:54px;}
+.massage a{ padding-top:13px; display:block; padding-left:18px; padding-right:18px; padding-bottom:13px;}
+.todo{float:right; border-right:1px solid #393939; height:54px; line-height:54px;}
+.todo p{font-family:Arial, Helvetica, sans-serif; font-size:12px; text-transform:uppercase; color:#fff; padding:0 16px;}
+.todo p span{background-color:#689c2c; height:17px; line-height:18px; padding:0 6px; display:inline-block; margin-right:5px;}
+.todo a{color:#fff; margin-right:5px;}
+.leftborder{border-left:1px solid #393939;}
+.dropdownbox{position:absolute; background-color:#eee; padding:5px 10px; z-index:999999; width:100%; box-sizing:border-box; -webkit-box-sizing:border-box; display:none; border-radius:0 0 5px 5px; -webkit-border-radius:0 0 5px 5px; box-shadow:1px 1px 3px rgba(0,0,0,0.1); -webkit-box-shadow:1px 1px 3px rgba(0,0,0,0.1); left:0px; top:44px;}
+.dropdownbox ul{list-style:none;}
+.dropdownbox ul li{font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+.dropdownbox ul li a{color:#555; padding:5px 0; line-height:normal; font-weight:bold; display:block}
+.dropdownbox ul li a:hover{color:#689c2c;}
+.dropdownbox ul li.divider{border-bottom:1px solid #ccc; padding-top:3px; margin-bottom:3px; line-height:0px; box-shadow:0px 1px 0px #fff; -webkit-box-shadow:0px 1px 0px #fff;}
+.sublinks{position:relative;}
+.droparrow{position:relative;}
+.sublinks:hover .dropdownbox{display:block;}
+.droparrow:hover .dropdownbox{display:block; }
+.footerlinks{ padding-left:50px; padding-top:24px; position:relative; z-index:5}
+.footerlink{float:left; width:185px; padding-bottom:30px; padding-top:10px;}
+.footerlink h3{font-family:'latobold'; font-size:18px; color:#38b0d9; font-weight:normal; padding-bottom:10px;}
+.footerlink h3 a{color:#38b0d9;}
+.footerlink h3 a:hover{color:#4b4b4b;}
+.footerlink ul{list-style:none;}
+.footerlink ul li{font-family:'latoregular'; font-size:16px; line-height:31px;}
+.footerlink ul li a{color:#4b4b4b;}
+.footerlink ul li a:hover{color:#38b0d9;}
+.footer{/*margin-top:-15px;*/ position:relative}
+.footertop{padding-top:10px; position:relative; padding-bottom:20px;}
+.flogo{float:left; padding-top:14px;}
+.footer p{font-family:'latoregular'; font-size:14px; color:#A39E9E; text-align:center; padding-left:250px; float:left; padding-top:24px;}
+.footer p a{color:#38b0d9;}
+.footer p a:hover{color:#666;}
+.bottomlink{float:right;}
+.bottomlink ul{list-style:none; padding-left:40px; float:left}
+.bottomlink ul li{font-family:'latoregular'; font-size:16px; font-weight:normal}
+.bottomlink ul li a{color:#A39E9E;}
+.bottomlink ul li a:hover{color:#38B0D9;}
+.reletive{position:relative;}
+.bodybg{} /* removed bg image */
+.bodyshadow{background:url(../images/scriptolution_shadow.png) repeat-y; width:1306px; margin:auto}
+.scriptolutiontextbox20{font-size:20px;}
+.scriptolutionpaddingtop55{padding-top:55px;}
+#main-wrapper{background:none}
+.inner {background: #F2F3F4}
