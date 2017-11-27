@@ -2,14 +2,14 @@
 $config = array();
 
 // Begin Configuration
-$config['basedir']     =  '/home/username/public_html';
-$config['baseurl']     =  'http://www.fiverrscript.com';
+$config['basedir']     =  '/home/introbiz/public_html/web';
+$config['baseurl']     =  'http://introbizbox.co.uk/web/';
 
 $DBTYPE = 'mysqli';
 $DBHOST = 'localhost';
-$DBUSER = 'database_username';
-$DBPASSWORD = 'database_password';
-$DBNAME = 'database_name';
+$DBUSER = 'introbiz_root';
+$DBPASSWORD = 'Password!!27';
+$DBNAME = 'introbiz_fiverr';
 
 $default_language = "english"; //Valid choices are english, spanish,  french, portuguese, hebrew, arabic, german, chinese or russian
 // End Configuration
